@@ -1,23 +1,23 @@
-// Create an array of blog post objects
+// Crear una matriz (array) de objetos de publicación de nuestro blog
 var blogPosts = [
   {
-    title: "My First Blog Post",
-    date: "March 1, 2023",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    title: "Mi primera publicacion",
+    date: "Marzo 1, 2023",
+    content: "Territorios virtuales 1."
   },
   {
-    title: "My Second Blog Post",
-    date: "March 3, 2023",
-    content: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    title: "Mi segunda publicacion ",
+    date: "Marzo 3, 2023",
+    content: "Territorios virtuales 2."
   },
   {
-    title: "My Third Blog Post",
-    date: "March 5, 2023",
-    content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    title: "Mi tercer publicacion",
+    date: "Marzo 5, 2023",
+    content: "Territorios Virtuales"
   }
 ];
 
-// Display the blog posts on the website
+// Mostrar las publicaciones del blog en el sitio web
 function displayBlogPosts() {
   var postList = document.createElement("ul");
 
@@ -41,5 +41,5 @@ function displayBlogPosts() {
   document.querySelector("main").appendChild(postList);
 }
 
-// Call the displayBlogPosts function when the website loads
+// Llamar a la función displayBlogPosts cuando se carga el sitio web
 window.addEventListener("load", displayBlogPosts);
